@@ -1,0 +1,20 @@
+<div class="container">
+  <h3 class="col-lg-12">This is Angular with some Bootstrap</h3>
+  <hr>
+  <div class="row">
+    <div class="form-group col-lg-6">
+      <input class="form-control" type="text" [(ngModel)]="name">
+    </div>
+    <div class="alert alert-primary col-lg-6">{{ name }}</div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6">
+      <app-warning></app-warning>
+    </div>
+
+    <div class="col-md-6">
+      <app-success></app-success>
+    </div>
+  </div>
+</div>
